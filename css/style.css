@@ -1,43 +1,7 @@
-
-/* Required for full background image */
-
-html,
-body,
-header,
-.jarallax {
-  height: 100%;
-}
-
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .jarallax {
-    height: 100vh;
+.carousel-caption {
+    position: absolute;
+    bottom: 40%;
+    font-size: 40px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
   }
-}
-
-.top-nav-collapse {
-  background-color: #82b1ff !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-@media (max-width: 768px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #82b1ff !important;
-  }
-}
-@media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #82b1ff !important;
-  }
-}
-
-h5 {
-  letter-spacing: 3px;
-}
-
-   
+  
