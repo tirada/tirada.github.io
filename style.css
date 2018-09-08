@@ -1044,7 +1044,7 @@ textarea:focus {
         text-align: center;
         top: 40px;
         z-index: 100;
-        padding: 10px; }
+        padding: 6px; }
         .vcard-main-wrapper .vcard-content-wrapper .header_area .logo a {
           display: block; }
           @media only screen and (min-width: 768px) and (max-width: 991px) {
